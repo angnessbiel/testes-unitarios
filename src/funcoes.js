@@ -17,5 +17,5 @@ function adicao(a, b) {
     return a / b;
   }
   
-  module.exports = { adicao, subtracao, multiplicacao, divisao };
+  export default { adicao, subtracao, multiplicacao, divisao };
   

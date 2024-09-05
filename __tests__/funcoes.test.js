@@ -1,4 +1,4 @@
-const { adicao, subtracao, multiplicacao, divisao } = require('../src/funcoes');
+import { adicao, subtracao, multiplicacao, divisao } from '../src/funcoes';
 
 test('Testa a função de adição', () => {
   expect(adicao(2, 3)).toBe(5);
